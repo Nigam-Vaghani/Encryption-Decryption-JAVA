@@ -6,7 +6,7 @@ public class CasearCipher {
         Scanner sc = new Scanner(System.in);
         
         // read input from an file
-        FileReader r = new FileReader("INPUT.txt");
+        FileReader r = new FileReader("input.txt");
         int i;
         String s = "";
         while((i = r.read())!= -1){
@@ -38,7 +38,7 @@ public class CasearCipher {
         }
 
         // set in a file
-            FileWriter w = new FileWriter("ans.txt");
+            FileWriter w = new FileWriter("output.txt");
             w.write(arr);
             w.close();  
         
