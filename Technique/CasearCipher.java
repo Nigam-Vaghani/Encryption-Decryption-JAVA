@@ -38,7 +38,7 @@ public class CasearCipher {
         }
 
         // set in a file
-            FileWriter w = new FileWriter("output.txt");
+            FileWriter w = new FileWriter("outputCasear.txt");
             w.write(arr);
             w.close();  
         
